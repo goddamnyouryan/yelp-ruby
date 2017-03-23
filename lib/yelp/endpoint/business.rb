@@ -3,7 +3,7 @@ require 'json'
 module Yelp
   module Endpoint
     class Business
-      PATH = '/v2/business/'
+      PATH = '/v3/businesses/'
 
       def initialize(client)
         @client = client
